@@ -1,13 +1,15 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    padding: 20px 20px;
+}
+.half-width{
+    width: 50%;
+}
+.orange-color {
+    color: orange;
 }
 h1{
-    font-size: 60px;
+    font-size: 57px;
     margin-top: 100px;
-}
-.orange-color{
-    color: orange;
 }
 .ash-color{
     color: #575757;
@@ -19,26 +21,133 @@ h1{
 }
 .fast-section p{
     font-size: 20px;
+    color: #575757;
 }
-.fast-section-photo img{
-    width: 500px;
-    height: 550px;
+.half-width img {
+    width: 100%;
+    height: 100%;
 }
-.link-button{
-    background-color: orangered;
-    color: white;
-    font-weight: 700;
+
+.button{
+    margin-top: 60px;
+}
+.button .order-btn {
+    background-color: rgb(255, 102, 0);
     text-decoration: none;
+    color: wheat;
+    font-size: 700;
+    font-weight: 700;
     padding: 15px 32px;
+    pading-top: 66px;
     border-radius: 30px;
 }
+/*--secend-section-- start-----*/
 .scend-section{
+    width: 100%;
+    height: 500px;
     background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
     display: flex;
+    align-items: center;
+    background-color:#FC8F491A;;
+    background-image: linear-gradient();
 }
-.about-me img{
-    width: 735px;
-        height: 600px;
-    
+.about-me img {
+    width: 420px;
+    height: 449px;
     padding-left: 150px;
+}
+
+.about-text h2 {
+    margin: auto;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #707070;
+}
+.about-text p {
+    margin-top: 50px;
+    font-size: 18px;
+    padding-right: 175px;
+}
+.button .contact-button{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 15px 32px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+}
+/*third section*/
+.recipoes-text{
+    text-align: center;
+}
+.recipoes-text h2{
+    font-size: 40px;
+    color: #707070;
+    font-weight: bolder;
+}
+.recipoes-text p {
+    font-size: 20px;
+    color: #252525;
+    line-height: 26px;
+    width: 60%;
+    margin: auto;
+}
+/*card section*/
+#container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    
+}
+.card{
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    box-shadow: 1px 2px 26px 8px rgb(0 0 0 / 12%);
+    border-radius: 30px;
+    padding: 20px;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+/*card section ---- third section----end */
+/*number card section*/
+.container{
+    display: flex;
+    justify-content: center;
+    column-gap: 180px;
+    margin-top: 80px;
+    padding: 50px 60px;
+    border-radius: 20px;
+        box-shadow: 0px 0px 40px rgb(0 0 0 / 10%)
+}
+.number span {
+    font-size: 48px;
+    font-weight: bolder;
+}
+/*end number section*/
+/*footer-section-- start*/
+.footer{
+    width: 100%;
+    height: 270px;
+    background-color: black;
+    text-align: center;
+
+}
+.footer h2{
+    padding-top: 40px;
+    color: #707070;
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-box span{
+    color: orangered;
+}
+.footer-box p{
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
 }
